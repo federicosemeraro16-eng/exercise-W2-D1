@@ -188,11 +188,11 @@ let triangleType = '';
 const PERIMETER = latoA + latoB + latoC;
 
 if (latoA === latoB && latoA === latoC && latoB === latoC){
-   triangleType ==='equilatero';
+   triangleType ='equilatero';
 }else if (latoA === latoB && latoA === latoC && latoB === latoC ){
-   triangleType ==='scaleno';  
+   triangleType ='scaleno';  
 } else{
-   triangleType === 'isoscele'; 
+   triangleType = 'isoscele'; 
 }
 
 console.log(`Triangolo ${triangleType}, perimetro :${PERIMETER}`);
